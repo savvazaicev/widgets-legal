@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Widgets — 2D window widgets for Meta Quest</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1c1c1e; background: #ffffff; }
+  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #000000; } }
+  main { max-width: 46em; margin: 0 auto; padding: 3rem 1.5rem; }
+  h1 { font-size: 2.3rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 { font-size: 1.4rem; margin-top: 2.5rem; }
+  a { color: #0a66c2; }
+  @media (prefers-color-scheme: dark) { a { color: #4495f2; } }
+  ul { padding-left: 1.4rem; }
+  li { margin: .4rem 0; }
+  .meta { color: #6e6e73; font-size: .95rem; }
+  @media (prefers-color-scheme: dark) { .meta { color: #98989d; } }
+  .lede { font-size: 1.15rem; color: #3a3a3c; }
+  @media (prefers-color-scheme: dark) { .lede { color: #d1d1d6; } }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .card { border: 1px solid #e5e5ea; border-radius: 12px; padding: 1rem 1.1rem; }
+  @media (prefers-color-scheme: dark) { .card { border-color: #38383a; } }
+  .card h3 { margin: 0 0 .35rem; font-size: 1.02rem; }
+  .card p { margin: 0; font-size: .95rem; color: #515154; }
+  @media (prefers-color-scheme: dark) { .card p { color: #a1a1a6; } }
+  .badge { display: inline-block; font-size: .8rem; font-weight: 600; color: #0a66c2; border: 1px solid currentColor; border-radius: 999px; padding: .1rem .6rem; margin-right: .35rem; }
+  @media (prefers-color-scheme: dark) { .badge { color: #4495f2; } }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e5e5ea; font-size: .9rem; color: #6e6e73; }
+  @media (prefers-color-scheme: dark) { footer { border-color: #38383a; color: #98989d; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Widgets</h1>
+  <p class="lede">Phone widgets, reimagined for Meta Quest. Spawn live 2D windows — clocks, notes, tasks, weather and more — and pin them where you want them in Horizon.</p>
+  <p class="meta">Free · No ads · No accounts · Works offline</p>
+
+  <h2>What it does</h2>
+  <p>Horizon has no home-screen widgets — so Widgets turns them into <strong>2D windows</strong>. Pick a widget type from the catalog, spawn one or several windows, and each window shows its widget live: a ticking clock, a running countdown, an active pomodoro, fresh weather, your to-do list. All windows update in real time and stay in sync with each other.</p>
+  <ul>
+    <li><strong>Catalog of widget types</strong> — pick what you need, spawn as many windows as you like</li>
+    <li><strong>Multi-window</strong> — each widget is its own Horizon panel; open several at once and arrange them freely</li>
+    <li><strong>Per-widget configuration</strong> — every window is configured independently (time zones, alarm lists, task lists, goals, feeds…)</li>
+    <li><strong>Live</strong> — clocks tick, countdowns tick down, alarms ring in the panel, trackers count</li>
+    <li><strong>Private</strong> — everything is stored locally on your headset; no accounts, no ads, no analytics</li>
+    <li><strong>Lightweight</strong> — under 8 MB, fast to install, 2D-only (no VR scene, no tracking)</li>
+  </ul>
+
+  <h2>Widget catalog</h2>
+  <div class="grid">
+    <div class="card"><h3>Time</h3><p>Clock (with world clocks), date &amp; calendar, countdown, alarm, time converter.</p></div>
+    <div class="card"><h3>Productivity</h3><p>Tasks, notes, pomodoro, time tracker, water intake, calculator.</p></div>
+    <div class="card"><h3>Info</h3><p>Weather (Open-Meteo, no API key), news from any RSS feed, quotes, battery.</p></div>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Your widgets, settings and data never leave your device. The only network access is the optional Weather and News widgets, which query the public services you configure yourself. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+
+  <footer>
+    <p><a href="index.html">Legal documents</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a><br>
+    Contact: <a href="mailto:oisurka@gmail.com">oisurka@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
